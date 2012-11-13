@@ -29,3 +29,11 @@ player3.blam
 puts player3.to_s
 player3.woot
 puts player3.to_s
+
+Array.new(players) { player1, player2, player3 }
+
+name.size
+
+  def to_s
+    "There are #{players} in the game:"
+  end
