@@ -1,9 +1,10 @@
-require_relative "game_turn"
+require_relative "treasure_trove"
 
 class Player 
   attr_accessor :name
   attr_accessor :health
   attr_reader :score
+  attr_accessor :treasures
 
 
   def initialize(name, health=150)
@@ -77,6 +78,8 @@ end
 
   def play
     puts "There are #{@players.size} players in #{@title}"
+
+    TreasureTrove::TREASURES
 
     @players.each do |player|
       puts player
