@@ -1,5 +1,6 @@
 require_relative 'my_game'
 
+module Game
 describe 'Player' do
 
 	it "has a capitalized name" do

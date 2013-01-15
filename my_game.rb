@@ -34,6 +34,8 @@ end
  player2 = Player.new("syntha", 60)
  player3 = Player.new("molvak", 125)
  player4 = Player.new("lorek", 90)
+ player5 = Player.new("klutz", 105)
+
 
  puts player3.name
  player3.name = "molvak"
@@ -51,7 +53,7 @@ end
  player3.woot
  puts player3.to_s
 
- players =[player1, player2, player3]
+ players =[player1, player2, player3, player4, player5]
  puts "There are #{players.size} in the game"
  players.each do [i]
   

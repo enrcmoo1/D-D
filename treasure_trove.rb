@@ -1,5 +1,10 @@
 require_relative 'treasure_trove'
    
+module Game
+  Treasure = Strcut.new(:name, :points)
+
+  module TreasureTrove
+
 describe Treasure do
   
   before do
